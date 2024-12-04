@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let varParticipation = 0;
+        let varChildren = prompt("Saisir combien vous avez d'enfants");
+        let varSalary = prompt("Saisir votre salaire");
+        let varSituation = prompt("Marié ? (Oui ou Non)");
+
+
+        
+        const maxSalary = 1800;
+        const tauxLowSalary = 0.1;
+        const tauxSingle = 0.2;
+        const tauxMarried = 0.25;
+        const tauxChildrens = 0.15;
+        const tauxMax = 0.5;
+        
+        if (varSituation === "oui" || "Oui") {
+            varParticipation = varParticipation + tauxMarried
+        } else { varParticipation = varParticipation + tauxSingle }
+        
+        if (varChildren !== 0) {
+            varParticipation = varParticipation + (varChildren * tauxChildrens)
+        }
+        
+        if (varSalary < maxSalary) {
+            varParticipation = varParticipation + tauxLowSalary
+        }
+        
+        if (varParticipation > tauxMax) {
+            varParticipation = tauxMax
+        }
+        
+        alert("Le taux de participation de l'employé est de " + varParticipation*100 + " %") ;
+        
+        </script>
+</body>
+</html>
