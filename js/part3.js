@@ -26,12 +26,14 @@
 //     console.log(nb1+nb2)
 // }
 
-// ex4
+// // ex4
 
-let nbr = 0
+// let nbr = 0
+// let fin = " "
 
-while (nbr < 10) {
-    nbr = nbr + 1
-    nbr == 10 ? console.log("Message " + nbr + " et donc c'était le dernier") : console.log("Message " + nbr)
-}
+// while (nbr < 10) {
+//     nbr++
+//     nbr == 10 ? fin=" bsahtek franchement, c'est fini" : fin = ""
+//     console.log("Message " + nbr + fin)
+// }
 
