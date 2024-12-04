@@ -121,54 +121,54 @@
 
 // Ex 6
 
-let month = prompt("Entrez un numéro de mois entre 1 et 12")
+// let month = prompt("Entrez un numéro de mois entre 1 et 12")
 
-month = parseInt(month)
-let monthWrite = " "
+// month = parseInt(month)
+// let monthWrite = " "
 
-switch (month) {
-    case 1:
-        monthWrite = "Janvier"
-        break;
-    case 2:
-        monthWrite = "Février"
-        break;
-    case 3:
-        monthWrite = "Mars"
-        break;
-    case 4:
-        monthWrite = "Avril"
-        break;
-    case 5:
-        monthWrite = "Mai"
-        break;
-    case 6:
-        monthWrite = "Juin"
-        break;
-    case 7:
-        monthWrite = "Juillet"
-        break;
-    case 8:
-        monthWrite = "Août"
-        break;
-    case 9:
-        monthWrite = "Septembre"
-        break;
-    case 10:
-        monthWrite = "Octobre"
-        break;
-    case 11:
-        monthWrite = "Novembre"
-        break;
-    case 12:
-        monthWrite = "Décembre"
-        break;
-    default:
-        console.log("Le chiffre n'est pas valide, mettre un mois entre 1 et 12")
-        monthWrite = "RIEN"
-        break;
-}
-console.log("Le chiffre " + month + " correspond à " + monthWrite)
+// switch (month) {
+//     case 1:
+//         monthWrite = "Janvier"
+//         break;
+//     case 2:
+//         monthWrite = "Février"
+//         break;
+//     case 3:
+//         monthWrite = "Mars"
+//         break;
+//     case 4:
+//         monthWrite = "Avril"
+//         break;
+//     case 5:
+//         monthWrite = "Mai"
+//         break;
+//     case 6:
+//         monthWrite = "Juin"
+//         break;
+//     case 7:
+//         monthWrite = "Juillet"
+//         break;
+//     case 8:
+//         monthWrite = "Août"
+//         break;
+//     case 9:
+//         monthWrite = "Septembre"
+//         break;
+//     case 10:
+//         monthWrite = "Octobre"
+//         break;
+//     case 11:
+//         monthWrite = "Novembre"
+//         break;
+//     case 12:
+//         monthWrite = "Décembre"
+//         break;
+//     default:
+//         console.log("Le chiffre n'est pas valide, mettre un mois entre 1 et 12")
+//         monthWrite = "RIEN"
+//         break;
+// }
+// console.log("Le chiffre " + month + " correspond à " + monthWrite)
 
 // ex 7 
 
