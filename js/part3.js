@@ -99,3 +99,15 @@
 //     console.log(myMessage)
 // }
 
+// // ex9
+
+// let nbr = ""
+
+// for(let i = 1; i<=10; i++){
+//     nbr=nbr+i
+//     if(i<10){
+//         nbr=nbr+"-"
+//     }
+// }
+
+// console.log(nbr)
