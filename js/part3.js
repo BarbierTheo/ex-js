@@ -57,3 +57,45 @@
 
 // ex7
 
+// let timer = 21
+// let afficher = ""
+// for(let i = 0; i <= 22 ; i++){
+
+//     if(i == 0){
+//         afficher = "START !!"
+//     }
+
+//     if(i == 22){
+//         afficher = "FINISH !!"
+//     }
+
+//     if(i!=0 && i!=22){
+//         afficher=timer
+//     }
+//     console.log(afficher)
+//     timer=timer-1
+// }
+
+
+// // ex8
+
+// let myVar = 0
+// let myMessage = ""
+
+// for (let i = 0; i <= 99; i++) {
+//     myVar = myVar + 1
+//     myMessage = myVar
+
+//     if (myVar % 3 == 0) {
+//         myMessage = "Fizz"
+//     }
+//     if (myVar % 5 == 0) {
+//         myMessage = "Buzz"
+//     }
+//     if (myVar % 3 == 0 && myVar % 5 == 0) {
+//         myMessage = "FizzBuzz"
+//     }
+
+//     console.log(myMessage)
+// }
+
