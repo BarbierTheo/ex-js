@@ -37,3 +37,23 @@
 //     console.log("Message " + nbr + fin)
 // }
 
+// // ex5
+
+// const message = "Vendredi 13"
+
+// console.log(111)
+
+// for(let i = 0; i<13; i++){
+//     console.log(message)
+// }
+
+
+// // ex6
+// let myVar = 0
+// for(let i = 0; i <= 99 ; i =i+3){
+//     console.log(myVar)
+//     myVar=myVar+3
+// }
+
+// ex7
+

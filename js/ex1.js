@@ -1,3 +1,3 @@
-let message = 'Hello world';
+// let message = 'Hello world';
 
-alert(message);
+// alert(message);
