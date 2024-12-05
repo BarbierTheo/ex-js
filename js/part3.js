@@ -2,18 +2,18 @@
 
 // let pair = 0
 
-// while (pair < 100){
-// pair=pair+1
-// console.log(pair);
+// while (pair < 100) {
+//     pair = pair + 1
+//     console.log(pair);
 // }
 
 // // ex2
 
 // let pair = 102
 
-// while (pair > 0){
-// pair=pair-2
-// console.log(pair);
+// while (pair > 0) {
+//     pair = pair - 2
+//     console.log(pair);
 // }
 
 // // ex3
@@ -21,9 +21,9 @@
 // let nb1 = 3
 // let nb2 = 6
 
-// while(nb1+nb2<2023){
-//     nb2=nb1+nb2
-//     console.log(nb1+nb2)
+// while (nb1 + nb2 < 2023) {
+//     nb2 = nb1 + nb2
+//     console.log(nb1 + nb2)
 // }
 
 // // ex4
@@ -33,7 +33,7 @@
 
 // while (nbr < 10) {
 //     nbr++
-//     nbr == 10 ? fin=" bsahtek franchement, c'est fini" : fin = ""
+//     nbr == 10 ? fin = " bsahtek franchement, c'est fini" : fin = ""
 //     console.log("Message " + nbr + fin)
 // }
 
@@ -43,37 +43,37 @@
 
 // console.log(111)
 
-// for(let i = 0; i<13; i++){
+// for (let i = 0; i < 13; i++) {
 //     console.log(message)
 // }
 
 
 // // ex6
 // let myVar = 0
-// for(let i = 0; i <= 99 ; i =i+3){
+// for (let i = 0; i <= 99; i = i + 3) {
 //     console.log(myVar)
-//     myVar=myVar+3
+//     myVar = myVar + 3
 // }
 
 // ex7
 
 // let timer = 21
 // let afficher = ""
-// for(let i = 0; i <= 22 ; i++){
+// for (let i = 0; i <= 22; i++) {
 
-//     if(i == 0){
+//     if (i == 0) {
 //         afficher = "START !!"
 //     }
 
-//     if(i == 22){
+//     if (i == 22) {
 //         afficher = "FINISH !!"
 //     }
 
-//     if(i!=0 && i!=22){
-//         afficher=timer
+//     if (i != 0 && i != 22) {
+//         afficher = timer
 //     }
 //     console.log(afficher)
-//     timer=timer-1
+//     timer = timer - 1
 // }
 
 
@@ -103,10 +103,10 @@
 
 // let nbr = ""
 
-// for(let i = 1; i<=10; i++){
-//     nbr=nbr+i
-//     if(i<10){
-//         nbr=nbr+"-"
+// for (let i = 1; i <= 10; i++) {
+//     nbr = nbr + i
+//     if (i < 10) {
+//         nbr = nbr + "-"
 //     }
 // }
 

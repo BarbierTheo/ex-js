@@ -39,7 +39,7 @@
 
 // age = parseInt(age);
 
-// if (age >= 18){
+// if (age >= 18) {
 //     alert("L'utilisateur est majeur !")
 // } else {
 //     alert("L'utilisateur est mineur !")
@@ -50,7 +50,7 @@
 // let userNumber = prompt('Entrez un entier');
 
 // userNumber = parseInt(userNumber);
-// if (userNumber%2==0){
+// if (userNumber % 2 == 0) {
 //     alert("PAIR !")
 // } else {
 //     alert("IMPAIR !")
@@ -61,29 +61,29 @@
 // let password = "dangereuxcrimineldu76"
 // let testpassword = prompt("Tapez votre mot de passe")
 
-// if (testpassword == password){
+// if (testpassword == password) {
 //     alert("Hello Mr Anderson")
 // } else {
 //     alert("Mauvais mot de passe")
 // }
 
-// EX 4 
+// EX 4
 
 // let gender = prompt("Homme ou femme ?")
 // let age = prompt("Age ?")
 
 // age = parseInt(age)
 
-// if(age<=18){
-//     if(gender=="homme"){
+// if (age <= 18) {
+//     if (gender == "homme") {
 //         alert("L'utilisateur est de type masculin et mineur")
 //     } else {
 //         alert("L'utilisatrice est de type féminin et mineure")
 //     }
 // }
 
-// if(age>=18){
-//     if(gender=="homme"){
+// if (age >= 18) {
+//     if (gender == "homme") {
 //         alert("L'utilisateur est de type masculin et majeur")
 //     } else {
 //         alert("L'utilisatrice est de type féminin et majeure")
@@ -170,16 +170,16 @@
 // }
 // console.log("Le chiffre " + month + " correspond à " + monthWrite)
 
-// ex 7 
+// ex 7
 
 // let userNumber = prompt("Entrez un nombre")
 // userNumber = parseInt(userNumber)
 
-// console.log(userNumber%2===0 ? "PAIR" : "IMPAIR")
+// console.log(userNumber % 2 === 0 ? "PAIR" : "IMPAIR")
 
 // ex 8
 
-// if (window.confirm("En cliquant sur OK, je confirme que je rentre sur ce site en 'mon âme et conscience")){
+// if (window.confirm("En cliquant sur OK, je confirme que je rentre sur ce site en 'mon âme et conscience")) {
 //     console.log("L'utilisateur a validé")
 // } else {
 //     console.log("L'utilisateur n'a pas validé")
